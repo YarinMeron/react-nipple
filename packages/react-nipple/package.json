@@ -1,6 +1,6 @@
 {
-  "name": "react-nipple",
-  "version": "1.0.3",
+  "name": "@matveyneyman/react-nipple",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -13,17 +13,31 @@
     "prepublishOnly": "yarn build:full"
   },
   "peerDependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "dependencies": {
-    "autobind-decorator": "^2.1.0",
-    "classnames": "^2.2.6",
-    "lodash.isequal": "^4.5.0",
-    "nipplejs": "^0.8.7"
+    "autobind-decorator": "2.4.0",
+    "classnames": "2.3.2",
+    "lodash.isequal": "4.5.0",
+    "nipplejs": "0.9.1"
   },
   "devDependencies": {
-    "@loopmode/babel6-base": "^0.0.6",
-    "react": "^16.4.1"
-  }
+    "@loopmode/babel6-base": "0.3.5",
+    "react": "17.0.2"
+  },
+  "description": "A react wrapper for the [nipplejs](https://www.npmjs.com/package/nipplejs) on-screen-joystick.",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YarinMeron/react-nipple.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/YarinMeron/react-nipple/issues"
+  },
+  "homepage": "https://github.com/YarinMeron/react-nipple#readme"
 }
