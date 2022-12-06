@@ -1,6 +1,6 @@
 {
-  "name": "@matveyneyman/react-nipple",
-  "version": "0.2.0",
+  "name": "@cognimbus/react-nipple",
+  "version": "0.3.0",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -26,18 +26,5 @@
     "@loopmode/babel6-base": "0.3.5",
     "react": "17.0.2"
   },
-  "description": "A react wrapper for the [nipplejs](https://www.npmjs.com/package/nipplejs) on-screen-joystick.",
-  "directories": {
-    "doc": "docs",
-    "lib": "lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YarinMeron/react-nipple.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/YarinMeron/react-nipple/issues"
-  },
-  "homepage": "https://github.com/YarinMeron/react-nipple#readme"
+  "description": "A react wrapper for the [nipplejs](https://www.npmjs.com/package/nipplejs) on-screen-joystick."
 }
